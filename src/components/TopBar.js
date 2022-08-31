@@ -6,7 +6,7 @@ export default function TopBar() {
     return (
 <Navbar bg="light" expand="lg" >
     <Navbar.Brand style={{margin: "5px 0 0 20px"}} href="#home">
-        <img src='.\public\instacart-logo-color.svg' /> 
+        <img src='.\public\instacart-logo-color.svg' alt='brand logo'/> 
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
